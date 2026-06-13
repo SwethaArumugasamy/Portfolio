@@ -17,45 +17,50 @@
       border: 4px salmon;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
+    .nav{
+    font-size: 22px;
+    font-weight: 600;
+    color: white !important;
+}
   </style>
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-warning navbar-dark fixed-top">
+    <div class="container-fluid bg-warning">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <img src="images/sign.jpeg" width="60" height="30" class="me-0 mt-1">
+          <img src="images/sign.jpeg" width="60" height="30" class="me-0 mt-1 rounded">
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link fs-5 fw-bold" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link fs-5 fw-bold" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skill</a>
+          <a class="nav-link fs-5 fw-bold" href="#">Skill</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link fs-5 fw-bold" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link fs-5 fw-bold color:white" href="#">Contact Us</a>
         </li>
 
       </ul>
     </div>
   </nav>
-  <div class="container-fluid">
+  <div class="container">
     <div class="text-center" style="margin-top: 7%;">
       <img src="images/bf.png" class="profile" alt="swetha">
-      <h1 class=" pt-5 mt-0 text-center text-danger"><i> Hi, I'm Swetha</i></h1>
+      <h1 class=" pt-5 mt-0 text-center text-warning"><i> Hi, I'm Swetha</i></h1>
       <h5 class="text-dark text-center"> I'm a Web Developer</h5>
       <div class="row text-center pt-1">
         <div class="col">
-          <button class="btn btn-primary">Projects</button>
-          <button class="btn btn-outline-primary">Contact Us</button>
+          <button class="btn btn-warning">Projects</button>
+          <button class="btn btn-outline-warning">Contact Us</button>
         </div>
       </div>
     </div>
@@ -76,7 +81,7 @@
     </div>
     <div class="row">
       <div class="col text-center">
-        <h1 class="text-center text-dark mt-4">About Me</h1>
+        <h1 class="text-center text-warning mt-4">About Me</h1>
         <p class="text-center text-dark ">
           Aspiring B.Sc. Information Technology student with proficiency in Web Development, C, Java, and Python. Committed to delivering efficient solutions while continuously learning and adapting to emerging technologies.
         </p>
@@ -90,13 +95,13 @@
             C,C++
           </p>
           <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 80%">80%</div>
+            <div class="progress-bar bg-info" role="progressbar" style="width: 80%">80%</div>
           </div>
           <p>
             Java
           </p>
           <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 70%">70%</div>
+            <div class="progress-bar bg-info" role="progressbar" style="width: 70%">70%</div>
           </div>
       </div>
 
@@ -106,13 +111,13 @@
           Html,CSS
         </p>
         <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 85%">85%</div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 85%">85%</div>
         </div>
         <p>
           bootstrap,Tailwind
         </p>
         <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 80%">80%</div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 80%">80%</div>
         </div>
       </div>
     </div>
@@ -123,13 +128,13 @@
           Python
         </p>
         <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 80%">80%</div>
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 80%">80%</div>
         </div>
         <p>
           JavaScript
         </p>
         <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 70%">80%</div>
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 70%">80%</div>
         </div>
       </div>
 
@@ -154,7 +159,7 @@
       <div class="row text-center">
         <div class="col"></div>
         <div class="col  p-1 mt-4">
-          <h4 class="text-dark text-center"> Project</h4>
+          <h2 class="text-warning text-center"> Project</h2>
           <div class="card" style="width: 25rem;">
             <img src="images/info.png" class="card-img-top text-center" alt="...">
             <div class="card-body">
@@ -169,21 +174,22 @@
         <div class="col"></div>
       </div>
 
+
       <div class="row">
-        <h1 class="text-dark pt-5 mt-0 ">Education</h1>
+        <h1 class="text-warning pt-5 mt-0 ">Education</h1>
       </div>
       <div class="row">
-        <div class="card shadow rounded">
+        <div class="card shadow rounded ">
           <div class="text-primary">
             <h5> B.Sc Information Technology</h5>
           </div>
           <div class="text-dark">
             <h6>Rose Mary College of Arts & Science (Women)</h6>
             2024-2027
-          </div>
+          </div></div>
 
-          <div class="row ">
-            <div class="card shadow rounded ">
+          <div class="row mt-4">
+            <div class="card shadow rounded">
               <div class="text-primary">
                 <h5>Higher Secondary</h5>
               </div>
@@ -191,36 +197,36 @@
                 <h6>St.Ignatius Convent Higher Secondary School</h6>
                 2022-2024
               </div>
-            </div>
           </div>
+        
 
           <div class="row">
-            <h1 class="text-dark pt-5 mt-0 ">Achievements</h1>
+            <h1 class="text-warning pt-5 mt-3 ">Achievements</h1>
           </div>
           <div class="row">
-            <div class="card shadow rounded">
+            <div class="card shadow rounded mt-4">
               <div class="text-primary">
                 <h5> Competition</h5>
               </div>
               <div class="text-dark">
                 <h6>1st Prize - Prompt Engineering</h6>
                 Secured first prize in Prompt Engineering at Rose Mary College of Arts & Science
-              </div>
+              </div></div>
 
               <div class="row">
-                <div class="card shadow rounded ">
+               <div class="card shadow rounded  mt-4">
                   <div class="text-primary">
                     <h5> Competition</h5>
                   </div>
                   <div class="text-dark">
                     <h6>2nd Prize - Technical Elocution</h6>
                     Secured Second prize in Technical Elocution at Rose Mary College of Arts & Science
-                  </div>
+                  </div></div>
                 </div>
-              </div>
+              
 
               <div class="row">
-                <div class="card shadow rounded ">
+                 <div class="card shadow rounded  mt-4">
                   <div class="text-primary">
                     <h5> Competition</h5>
                   </div>
@@ -228,11 +234,11 @@
                     <h6>2nd Prize - Wall Hanging </h6>
                     Secured Second prize in Wall Hanging at Rose Mary College of Arts & Science
                   </div>
-                </div>
-              </div>
+                </div></div>
+              
 
               <div class="row">
-                <div class="card shadow rounded ">
+                 <div class="card shadow rounded  mt-4">
                   <div class="text-primary">
                     <h5> Competition</h5>
                   </div>
@@ -240,11 +246,11 @@
                     <h6>3rd Prize - Paper Presentation</h6>
                     Secured Third prize in Paper Presentation at Rose Mary College of Arts & Science
                   </div>
-                </div>
+                </div></div>
               </div>
 
               <div class="row">
-                <h1 class="text-dark pt-5 mt-0 ">Publications</h1>
+                <h1 class="text-warning pt-5 mt-0 ">Publications</h1>
               </div>
               <div class="row">
                 <div class="card shadow rounded">
@@ -261,7 +267,7 @@
                 </div>
 
                 <div class="row">
-                  <h1 class="text-dark pt-5 mt-0 ">Certifications</h1>
+                  <h1 class="text-warning pt-5 mt-0 ">Certifications</h1>
                 </div>
                 <div class="row">
                   <div class="col">
@@ -269,13 +275,14 @@
                       <div class="text-primary">
                         <h5>AI- Tools</h5>
                       </div>
+
                       <div class="text-dark">
                         <h6>Hands On</h6>
                       </div>
                     </div>
 
-                    <div class="col">
-                      <div class="card shadow rounded">
+                    <div class="col mt-4">
+                      <div class="card shadow rounded ">
                         <div class="text-primary">
                           <h5>Lang Chain</h5>
                         </div>
@@ -287,7 +294,7 @@
                   </div>
 
                   <div class="row">
-                  <h1 class="text-dark pt-5 mt-0 ">Workshop Attended</h1>
+                  <h1 class="text-warning pt-5 mt-0 ">Workshop Attended</h1>
                 </div>
                 <div class="row">
 
@@ -322,14 +329,14 @@ Explored various AI tools and their practical applications, gaining insights int
   </div></div>
   
   </div>
-</div>
+</div></div></div></div></div></div>
 
 
-                  <div class="container-fluid bg-light text-dark text-center p-3 mt-5">
-                    <p>Copyright @ 2026 Swetha A</p>
+                  <div class="container-fluid bg-warning text-dark text-center mt-3 mb-1">
+                    <p>Copyright @ 2026 Swetha A</p></div>
 
                     <div class="row">
-                      <div class="col text-center pt-2">
+                      <div class="col text-center pt-1">
                         <span><a href="https://github.com/SwethaArumugasamy" target="_blank"><i
                               class="fa-brands fa-github text-secondary"></i></a></span>
                         <span><a href="https://www.linkedin.com/in/swetha-a-917742411/" target="_blank"><i
@@ -345,7 +352,7 @@ Explored various AI tools and their practical applications, gaining insights int
                     </div>
 
                   </div>
-                </div>
+                
 </body>
 
 </html>
